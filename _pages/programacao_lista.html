@@ -1,0 +1,18 @@
+---
+layout: archive
+permalink: /programacao_lista/
+title: "Programação edição 2018"
+author_profile: false
+tags: 
+    - programação
+search: true
+---
+
+
+{% assign postsByYear = site.programacao | group_by_exp:"post", "post.date | date: '%d-%m-%Y'"  %}
+{% for year in postsByYear %} 
+  <h3 id="{{ year.name | slugify }}" class="archive__subtitle"> Dia  {{ year.name }}</h3>
+  {% for post in year.items %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %} 
