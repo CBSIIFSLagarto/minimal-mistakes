@@ -21,13 +21,14 @@ Nesta edição serão trabalhados temas em programação, empreendedorismo e ino
 
 Além disso, o evento possui os seguintes objetivos específicos:
 
-- **Atualização de conhecimento**: 
-    Demonstrar a necessidade da atualização conhecimento nas áreas de informática, mais especificamente programação, para comunidade do centro sul do estado de Sergipe.
+- **Atualização de conhecimento**
+:    Demonstrar a necessidade da atualização conhecimento nas áreas de informática, mais especificamente programação, para comunidade do centro sul do estado de Sergipe.
 
-- **Fomentar atividades de pesquisa**:
-    Divulgar as atividades de pesquisa desenvolvidas pelos docentes e discentes dos cursos de Informática da Instituição.
+- **Fomentar atividades de pesquisa**
+:    Divulgar as atividades de pesquisa desenvolvidas pelos docentes e discentes dos cursos de Informática da Instituição.
 
-- **Oferecer oportunidades de negócio**: Apresentar empresas e oportunidades de negócio para os estudantes de computação do centro sul de Sergipe.
+- **Oferecer oportunidades de negócio**
+:    Apresentar empresas e oportunidades de negócio para os estudantes de computação do centro sul de Sergipe.
 
 
 ## Dia e Local 
