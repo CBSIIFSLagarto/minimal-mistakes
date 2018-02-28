@@ -255,14 +255,14 @@ collections:
   #  output: false
   #  permalink: /:collection/:path/
   #pets:
-  #  output: false
+  #  output: true
   #  permalink: /:collection/:path/
   portfolio:
-    output: false
+    output: true
     permalink: /:collection/:path/
   programacao:
     output: true
-    permalink: /:collection/:path/
+#    permalink: /:collection/:path/
 
 
 # Defaults
@@ -298,14 +298,14 @@ defaults:
       sidebar:
         nav: "docs"
   # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+ #- scope:
+ #    path: ""
+ #    type: recipes
+ #  values:
+ #    layout: single
+ #    author_profile: true
+ #    share: true
+ #    comments: true
   # _pets
   - scope:
       path: ""

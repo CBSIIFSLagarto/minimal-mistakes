@@ -1,12 +1,28 @@
 ---
-layout: archive
+layout: single # archive
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: false
 ---
+asdasdsd asdsd
+<div class="grid__wrapper">
+    {% for post in site.programacao %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
+  
+  asdasdsd asdsd
 
 <div class="grid__wrapper">
   {% for post in site.portfolio %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+
+asdasdsd asdsd
+
+<div class="grid__wrapper">
+    {% for post in site.pets %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>

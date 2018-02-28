@@ -39,5 +39,7 @@ O evento está planejado para ser realizado nos dias 3, 4 e 5 de Abril no audit�
 O público alvo não está restrito somente aos alunos do campus Lagarto. Visualizamos atender toda a comunidade acadêmica dos 09 campi do IFS e demais da região centro-sul do estado de Sergipe. Espera-se, assim, que nesta primeira edição do IFS DEV CONF tenhamos uma média de público de 200 pessoas, tendo em vista que essa é a média de público observada em eventos de mesmo cunho que foram realizados no Instituto, a exemplo do Techday 2017, que contou com mais de 150 participantes presentes.
 
 ## Programação
-[Veja nossa programação]({{ "/programacao/" | absolute_url }}).
+[Veja nossa programação]({{ "/programacao/" | absolute_url }})
+{: .notice--primary}
+
 
