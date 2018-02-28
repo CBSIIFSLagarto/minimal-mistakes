@@ -10,6 +10,10 @@ end_time: "13:00"
 
 #event organiser details
 organiser: "David Boyne"
+tags:
+  - 8BIT
+  - web
+  - jekyll
 
 ---
 
