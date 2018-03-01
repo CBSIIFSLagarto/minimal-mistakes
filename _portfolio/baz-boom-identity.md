@@ -4,6 +4,7 @@ excerpt: "Baz Boom design system including logo mark, website design, and brandi
 header:
   image: /assets/images/unsplash-gallery-image-1.jpg
   teaser: assets/images/unsplash-gallery-image-1-th.jpg
+cover: "https://mateh.id.au/wp-content/uploads/2014/07/amazon-aws-logo.jpg"
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250

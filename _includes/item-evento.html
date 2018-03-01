@@ -1,7 +1,9 @@
-{% if post.header.teaser %}
-{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-{% assign teaser = site.teaser %}
+{% if post.cover %} 
+  {% capture teaser %}{{ post.cover }}{% endcapture %}
+{% elsif post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}  
+    {% assign teaser = site.teaser %}
 {% endif %}
 
 {% if post.id %}
@@ -11,12 +13,8 @@
 {% endif %}
 <section class="page__content"> 
 <a href="{{ post.url | prepend: site.baseurl }}">
-{% if post.cover %}
-  <div class="event-sqaure" style="background-image:url({{post.cover}});">
-{% else %}
-  <div class="event-sqaure" style="background-image:url(http://evento.io/img/cover.jpg);">
-{% endif %}
-    <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
+  <div class="event-sqaure" style="background-image:url({{teaser}});">
+    <h2>{{ post.title }} <span>{{ post.data | date: "%b %-d, %Y" }}</span></h2>
     <div class='event-square-overlay'></div>
   </div>
 </a>
