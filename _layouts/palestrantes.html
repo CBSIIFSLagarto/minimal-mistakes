@@ -11,7 +11,7 @@ share: true
     {% if organiser.photo %}
         <h3 itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-organisers-name">{{organiser.name}}</h3>
     {% endif %}
-    <h4 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d/%m/%Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+    <h4 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.data | date: "%d/%m/%Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
     {{ page.start_time}} {% if page.end_time %} ~ {{page.end_time }}{% endif %} 
   </h4>
   <hr>

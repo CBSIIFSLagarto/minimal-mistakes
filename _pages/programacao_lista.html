@@ -1,18 +1,23 @@
 ---
-layout: archive
 permalink: /programacao_lista/
 title: "Programação edição 2018"
-author_profile: false
 tags: 
     - programação
+    - palestras
+    - horário
 search: true
----
-
-
-{% assign postsByYear = site.programacao | group_by_exp:"post", "post.date | date: '%d-%m-%Y'"  %}
-{% for year in postsByYear %} 
-  <h3 id="{{ year.name | slugify }}" class="archive__subtitle"> Dia  {{ year.name }}</h3>
-  {% for post in year.items %}
-    {% include archive-single.html %}
-  {% endfor %}
+toc: true
+excerpt_separator: "<!--more-->"
+layout: single
+---   
+{% assign postsByYear1 = site.programacao | group_by:"data"  %}
+{% assign postsByYear = postsByYear1 | sort:"data" %}
+{% for year in postsByYear  %} 
+<div class="clearfix page__inner-wrap">    
+    <h3 class="event-time-heading" id="{{ year.name | slugify }}">Dia {{ year.name | date: "%d-%m-%Y"}} </h3>
+    {% for post in year.items %}  
+      {% include item-evento-single.html type="grid" %}
+    {% endfor %}
+</div>     
 {% endfor %} 
+
