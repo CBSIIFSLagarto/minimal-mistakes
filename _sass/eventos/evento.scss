@@ -45,3 +45,33 @@ $on-laptop:        800px;
         "syntax-highlighting",
         "buttons"
 ;
+#particles{
+    justify-content: center !important;
+    display: flex;
+}
+.splash{
+    color: white !important;
+}
+
+#img-logo{
+    max-width: 40%;
+    z-index: 2;
+    position: relative;
+    margin-top: 15px;
+}
+#particles-js{
+    background:#1a222c;
+    display:flex;
+    vertical-align:bottom;
+    width:100%;
+    min-height:80vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    position: absolute;
+    max-height: calc(100% - 200px);
+}
+#particles-js 
+.particles-js-canvas-el{
+    width:100%!important;
+}

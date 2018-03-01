@@ -3,3 +3,8 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+{% if page.particles %}
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    {% capture script_path %}{{ "assets/js/particles/script_particles.js" | absolute_url }}{% endcapture %}  
+    <script src="{{ script_path }}"></script>    
+{% endif %}
