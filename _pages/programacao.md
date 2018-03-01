@@ -23,4 +23,4 @@ A programação sugerida para o evento está apresentada nos horários distribu�
 {: rules="groups"}
 
 Devida a dinâmica do evento e adequação do local, ela poderá sofrer ajustes.
-Para detalhes das palestras, [clique aqui](/programacao_lista). 
+Para detalhes das palestras, [clique aqui]({{ "/programacao_lista/" | absolute_url }}). 
