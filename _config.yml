@@ -262,7 +262,8 @@ collections:
     permalink: /:collection/:path/
   programacao:
     output: true
-#    permalink: /:collection/:path/
+    permalink: /:collection/:path/
+    label: Programaçaõ
 
 
 # Defaults
@@ -327,8 +328,10 @@ defaults:
       path: ""
       type: programacao
     values:
+      layout: palestrantes
       author_profile: false
-      related: true
+      related: true     
+      label: Programação 
 
 
 ## Defaults
